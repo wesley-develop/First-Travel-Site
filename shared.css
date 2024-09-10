@@ -3,6 +3,28 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 20px;
+}
+
 
 #page-logo a {
     padding: 10px;
